@@ -207,6 +207,7 @@ plt.plot(bins[:-1], data, c="b")
 #     generate = sess.run(G_output3, feed_dict={
 #             z: noise
 #     })
+
 (data, bins) = np.histogram(generate[0])
 plt.plot(bins[:-1], data, c="r")
 
