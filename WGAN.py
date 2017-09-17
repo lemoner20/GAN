@@ -53,7 +53,6 @@ def dense(inputs, shape, name, bn=False, act_fun=None):
         y = act_fun(y)
     return y
 
-
 def D(inputs, name, reuse=False):
     with tf.variable_scope(name, reuse=reuse):
         l1 = dense(inputs, [784, 512], name="relu1", act_fun=tf.nn.relu)
@@ -62,7 +61,6 @@ def D(inputs, name, reuse=False):
         y = dense(l3, [512, 1], name="output")
         return y
 
-
 def G(inputs, name, reuse=False):
     with tf.variable_scope(name, reuse=reuse):
         l1 = dense(inputs, [100, 512], name="relu1", act_fun=tf.nn.relu)
@@ -70,7 +68,6 @@ def G(inputs, name, reuse=False):
         l3 = dense(l2, [512, 512], name="relu3", act_fun=tf.nn.relu)
         y = dense(l3, [512, 784], name="output", bn=True, act_fun=tf.nn.sigmoid)
         return y
-
 
 z = tf.placeholder(tf.float32, [None, 100], name="noise")  # 100
 x = tf.placeholder(tf.float32, [None, 784], name="image")  # 28*28
