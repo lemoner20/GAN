@@ -35,9 +35,6 @@ def combine(image):
     return new_image.astype("uint8")
 
 
-
-
-
 def dense(inputs, shape, name, bn=False, act_fun=None):
     W = tf.get_variable(name + ".w", initializer=tf.random_normal(shape=shape))
     b = tf.get_variable(name + ".b", initializer=(tf.zeros((1, shape[-1])) + 0.1))
