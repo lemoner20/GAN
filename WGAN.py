@@ -19,7 +19,6 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
-
 def combine(image):
     assert len(image) == 64
     rows = []
@@ -33,7 +32,6 @@ def combine(image):
         rows.append(row)
     new_image = np.concatenate(tuple(rows), axis=1)
     return new_image.astype("uint8")
-
 
 def dense(inputs, shape, name, bn=False, act_fun=None):
     W = tf.get_variable(name + ".w", initializer=tf.random_normal(shape=shape))
