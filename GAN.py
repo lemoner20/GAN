@@ -25,7 +25,6 @@ def sample_data(size, length=100):
         data.append(sorted(np.random.normal(4, 1.5, length)))
     return np.array(data)
 
-
 def random_data(size, length=100):
     """
     随机生成数据
@@ -38,7 +37,6 @@ def random_data(size, length=100):
         x = np.random.random(length)
         data.append(x)
     return np.array(data)
-
 
 def preprocess_data(x):
     """
