@@ -1,4 +1,5 @@
 # GAN
+=====================
 Many types of GANs 
 
 GAN
@@ -26,3 +27,4 @@ BEGAN
 EBGAN
 
 CGAN
+
