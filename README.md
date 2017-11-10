@@ -3,6 +3,8 @@ Many types of GANs
 
 GAN
 
+DCGAN
+
 WGAN
 
 DCGAN
@@ -16,4 +18,6 @@ CoGAN
 DulaGAN
 
 CycleGAN
+
+SRGAN
 
