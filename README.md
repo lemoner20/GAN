@@ -21,3 +21,5 @@ CycleGAN
 
 SRGAN
 
+BEGAN
+
