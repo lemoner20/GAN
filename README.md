@@ -23,3 +23,4 @@ SRGAN
 
 BEGAN
 
+EBGAN
