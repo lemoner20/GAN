@@ -1,6 +1,7 @@
 # GAN
 =====================
-Many types of GANs 
+
+
 
 GAN
 
