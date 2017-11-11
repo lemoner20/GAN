@@ -9,7 +9,7 @@ DCGAN
 
 WGAN
 
-
+DCGAN
 
 InfoGAN
 
