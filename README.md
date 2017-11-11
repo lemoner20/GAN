@@ -15,9 +15,9 @@ InfoGAN
 
 ACGAN
 
-CoGAN
 
 
+DulaGAN
 
 CycleGAN
 
