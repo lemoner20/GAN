@@ -5,7 +5,7 @@ GAN
 
 GAN
 
-DCGAN
+
 
 WGAN
 
