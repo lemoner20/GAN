@@ -9,9 +9,9 @@ DCGAN
 
 WGAN
 
-DCGAN
 
 
+InfoGAN
 
 ACGAN
 
