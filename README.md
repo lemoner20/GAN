@@ -17,7 +17,7 @@ ACGAN
 
 CoGAN
 
-DulaGAN
+
 
 CycleGAN
 
