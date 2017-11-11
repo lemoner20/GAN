@@ -11,11 +11,11 @@ WGAN
 
 DCGAN
 
-InfoGAN
+
 
 ACGAN
 
-
+CoGAN
 
 DulaGAN
 
